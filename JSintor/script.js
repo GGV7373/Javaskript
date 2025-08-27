@@ -10,4 +10,4 @@ document.body.innerHTML += '<p>Hei ' + navn + '</p>';
 document.body.innerHTML += '<p>Høyden på vinduet er ' + høyde + '</p>';
 document.body.innerHTML += '<p>Bredden på vinduet er ' + bredde + '</p>';
 document.body.innerHTML += '<h2>' + navn2 + '</h2>';
-document.body.innerHTML += '<p id="test">' + forandre + '</p>';
+document.body.innerHTML += '<p>' + forandre + '</p>';
