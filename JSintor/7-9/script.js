@@ -7,6 +7,10 @@ bilde.src = 'media/ful.jpg';
 let test = document.getElementById('test');
 test.innerHTML = 'nå står dette her';
 
+// Oppdaterer h1
+let h1 = document.getElementById('overskrift');
+h1.textContent = 'h1';
+
 // Legg til ny <p> basert på prompt
 let tekst = prompt('hva skal stå i en ny <p>?');
 let nyParagraf = document.createElement('p'); // lager nytt <p>-element
