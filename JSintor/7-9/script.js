@@ -4,10 +4,10 @@ let bilde = document.getElementById('bilde');
 bilde.src = 'media/ful.jpg';
 
 // Oppdater <p> med id "test"
-let test = document.getElementById('test');
-test.innerHTML = 'nå står dette her';
+let p = document.getElementById('p');
+p.innerHTML = 'nå står dette her';
 
-// Oppdaterer h1
+// Oppdaterer h1 med id "overskrift"
 let h1 = document.getElementById('overskrift');
 h1.textContent = 'h1';
 
