@@ -1,9 +1,4 @@
-
-
-for( let i = 0; i < 100; i++ ) 
-    document.write( ' Her kommer i: ' + i )
-
-
-for( let a = 100; a > 0; a -= 2 )
-    document.write( ' Her kommer a: ' + a )
-            
+let minKnap = document.getElementById('minKnap')
+minKnap.addEventListener('click', function() {
+    document.getElementById('hei').innerHTML = 'Du trykket på knappen!'
+})
