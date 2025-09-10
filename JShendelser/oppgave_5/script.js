@@ -1,5 +1,5 @@
-document.querySelectorAll(".feil").forEach(function(button) { // for class
-    button.addEventListener("click", function(){
+document.querySelectorAll(".feil").forEach(function(ls) { // for class
+    ls.addEventListener("click", function(){
         alert("Feil");
     })
 });

@@ -17,8 +17,8 @@ function loadQuestion() {
         return;
     }
 
-    const q = quizData[current];
-    document.getElementById("question").textContent = q.question;
+    const q = quizData[current]; // sets q as the curent quixData
+    document.getElementById("question").textContent = q.question; //Prints the curent quizData question
     const answersDiv = document.getElementById("answers");
     answersDiv.innerHTML = "";
 
