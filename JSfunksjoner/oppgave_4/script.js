@@ -1,12 +1,13 @@
 // oppgave 4
 
-function square(i) {
+function square(i) { // 
         return i * i
     }
 
-    function third(i) {
-        return i * i * i
-    }
+function third(i) {
+    return i * i * i
+}
+
 function getRow(i) {
     let s = '<tr> '                       // tr starter en "table row"
     
@@ -16,6 +17,7 @@ function getRow(i) {
     s += '</tr>'
     return s
 }
+
 function writeTable() {
         document.write('<table>')
         for (let i = 0; i < 100; i++) {
